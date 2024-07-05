@@ -34,8 +34,6 @@ def predict():
         ]
         res = model.predict([inputs])[0]
         return render_template("result.html",content = res )
-if __name__ == "__main__":
-    app.run()
 
 
    
